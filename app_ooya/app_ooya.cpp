@@ -1,7 +1,9 @@
 
 #include <iostream>
+#include "profile.hpp";
+#include <string>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Profile.name = "Sam Drakkila";
 }
